@@ -59,18 +59,19 @@ public class MultipleTypefacesExampleActivity extends ActionBarActivity {
 				}
 
 				// Custom typefaces
+				// Default typeface is Ubuntu
 				switch (position % 4) {
 				case 0:
-					typeface(convertView);
-					break;
-				case 1:
-					typeface(convertView, juice);
-					break;
-				case 2:
 					typeface(convertView, actionMan);
 					break;
-				case 3:
+				case 1:
+					typeface(convertView);
+					break;
+				case 2:
 					typeface(convertView, archRival);
+					break;
+				case 3:
+					typeface(convertView, juice);
 					break;
 				}
 
@@ -88,22 +89,23 @@ public class MultipleTypefacesExampleActivity extends ActionBarActivity {
 				TextView text2 = (TextView) convertView.findViewById(android.R.id.text2);
 
 				// Custom typefaces (different for each line!)
+				// Default typeface is Ubuntu
 				switch (position % 4) {
 				case 0:
 					typeface(text1, actionMan);
 					typeface(text2);
 					break;
 				case 1:
-					typeface(text1, archRival);
-					typeface(text2, actionMan);
+					typeface(text1);
+					typeface(text2);
 					break;
 				case 2:
-					typeface(text1);
-					typeface(text2, juice);
+					typeface(text1, archRival);
+					typeface(text2);
 					break;
 				case 3:
 					typeface(text1, juice);
-					typeface(text2, archRival);
+					typeface(text2);
 					break;
 				}
 

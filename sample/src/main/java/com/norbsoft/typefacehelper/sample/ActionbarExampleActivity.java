@@ -12,9 +12,9 @@ public class ActionbarExampleActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 
 		// For use with appcompat library:
-		ActionBarHelper.setTitle(getSupportActionBar(), typeface(this, R.string.lorem_ipsum_title));
+		ActionBarHelper.setTitle(getSupportActionBar(), typeface(this, R.string.app_name));
 
 		// Without appcompat library:
-		// ActionBarHelper.setTitle(getActionBar(), typeface(this, R.string.lorem_ipsum_title));
+		// ActionBarHelper.setTitle(getActionBar(), typeface(this, R.string.app_name));
 	}
 }
