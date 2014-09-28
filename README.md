@@ -22,6 +22,7 @@ Android lacks proper support for custom typefaces. Most obvious method of defini
 * Support for custom typefaces in ActionBar title
 
 ## Installation
+Library will be available through Maven Central soon.
 
 ## Usage
 
