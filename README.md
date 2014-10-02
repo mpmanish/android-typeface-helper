@@ -22,7 +22,10 @@ Android lacks proper support for custom typefaces. Most obvious method of defini
 * Support for custom typefaces in ActionBar title
 
 ## Installation
-Library will be available through Maven Central soon.
+Via gradle:
+compile 'com.norbsoft.typefacehelper:library:0.9.0'
+
+Alternative download AAR [here](http://search.maven.org/remotecontent?filepath=com/norbsoft/typefacehelper/library/0.9.0/library-0.9.0.aar)
 
 ## Usage
 
