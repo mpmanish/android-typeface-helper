@@ -23,7 +23,9 @@ Android lacks proper support for custom typefaces. Most obvious method of defini
 
 ## Installation
 Via gradle:
+```
 compile 'com.norbsoft.typefacehelper:library:0.9.0'
+```
 
 Alternative download AAR [here](http://search.maven.org/remotecontent?filepath=com/norbsoft/typefacehelper/library/0.9.0/library-0.9.0.aar)
 
