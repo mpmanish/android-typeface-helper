@@ -5,3 +5,7 @@
 /build
 atlassian-ide-plugin.xml
 *.iml
+lib/src/main/bin
+lib/src/main/gen
+sample/src/main/bin
+sample/src/main/gen
