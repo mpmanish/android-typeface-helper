@@ -115,7 +115,7 @@ public class TypefaceCollection {
 	 *
 	 * @return selected Typeface
 	 */
-	Typeface getTypeface(int typefaceStyle) {
+	public Typeface getTypeface(int typefaceStyle) {
 		validateTypefaceStyle(typefaceStyle);
 		return mTypefaces.get(typefaceStyle);
 	}
